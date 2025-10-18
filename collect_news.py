@@ -66,12 +66,13 @@ def format_simple_news(news_list):
 def push_to_bark(bark_url, title, content):
     """推送到Bark（iOS）"""
     try:
+        print(f"推送内容: {content}")  # 调试输出，查看推送内容是否为空
         url = f"{bark_url}{requests.utils.quote(title)}"
         params = {
-            "body": content[:500],
-            "sound": "bell",
-            "group": "投资",
-            "isArchive": "1"
+            "body": content[:500],  # 推送的消息内容，最多500个字符
+            "sound": "bell",  # 可选，推送铃声
+            "group": "投资",  # 可选，推送分组
+            "isArchive": "1"  # 使消息能够被存档
         }
         response = requests.get(url, params=params, timeout=10)
         
@@ -107,6 +108,8 @@ def main():
     print(f"🔍 过滤后剩余 {len(filtered_news)} 条相关新闻")
     
     report = format_simple_news(filtered_news)
+    print(f"📜 推送内容: {report}")
+    
     print("✅ 分析完成\n")
     
     print("📤 推送消息...")
