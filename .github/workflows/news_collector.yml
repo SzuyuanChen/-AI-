@@ -1,0 +1,34 @@
+name: 投资助手
+
+on:
+  schedule:
+    # 每天9:30, 15:30, 21:30运行（北京时间）
+    - cron: '30 1 * * *'   # 09:30
+    - cron: '30 7 * * *'   # 15:30
+    - cron: '30 13 * * *'  # 21:30
+  
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+      
+      - name: 设置Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: 安装依赖
+        run: |
+          pip install feedparser requests yfinance
+      
+      - name: 运行助手
+        env:
+          BARK_URL: ${{ secrets.BARK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python collect_news.py
