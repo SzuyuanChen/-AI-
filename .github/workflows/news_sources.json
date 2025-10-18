@@ -1,0 +1,52 @@
+{
+  "rss_feeds": [
+    {
+      "name": "新浪财经-股票",
+      "url": "https://finance.sina.com.cn/roll/index.d.html",
+      "category": "A股",
+      "enabled": true
+    },
+    {
+      "name": "东方财富-要闻",
+      "url": "http://finance.eastmoney.com/news/cjplb.html",
+      "category": "财经",
+      "enabled": true
+    },
+    {
+      "name": "雪球-热帖",
+      "url": "https://xueqiu.com/hots/topic",
+      "category": "社区",
+      "enabled": true
+    }
+  ],
+  
+  "watchlist": [
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "alerts": {
+        "change_threshold": 3
+      }
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "alerts": {
+        "change_threshold": 3
+      }
+    },
+    {
+      "code": "AAPL",
+      "name": "苹果",
+      "alerts": {
+        "change_threshold": 2
+      }
+    }
+  ],
+  
+  "filters": {
+    "关注行业": ["新能源", "半导体", "人工智能"],
+    "关注股票": ["茅台", "宁德时代", "比亚迪"],
+    "屏蔽词": ["广告", "推广"]
+  }
+}
