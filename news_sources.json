@@ -1,7 +1,5 @@
 {
   "rss_feeds": [
-    
-    // ========== 国内权威财经媒体 ==========
     {
       "name": "新华社-财经",
       "url": "http://www.news.cn/fortune/news_fortune.xml",
@@ -20,8 +18,6 @@
       "category": "权威媒体",
       "enabled": true
     },
-    
-    // ========== 主流财经门户 ==========
     {
       "name": "新浪财经-股市要闻",
       "url": "https://finance.sina.com.cn/roll/index.d.html",
@@ -82,8 +78,6 @@
       "category": "财经门户",
       "enabled": true
     },
-    
-    // ========== 专业财经媒体 ==========
     {
       "name": "财新网-宏观",
       "url": "https://rsshub.app/caixin/finance/macroeconomy",
@@ -138,8 +132,6 @@
       "category": "专业媒体",
       "enabled": true
     },
-    
-    // ========== 国际权威媒体 ==========
     {
       "name": "路透社-市场",
       "url": "https://rsshub.app/reuters/markets",
@@ -200,8 +192,6 @@
       "category": "国际媒体",
       "enabled": true
     },
-    
-    // ========== 美股市场 ==========
     {
       "name": "Yahoo Finance-美股",
       "url": "https://finance.yahoo.com/news/rssindex",
@@ -226,8 +216,6 @@
       "category": "美股",
       "enabled": true
     },
-    
-    // ========== 政策与监管 ==========
     {
       "name": "中国政府网",
       "url": "http://www.gov.cn/rss/xinwen.xml",
@@ -264,8 +252,6 @@
       "category": "政策监管",
       "enabled": true
     },
-    
-    // ========== 上市公司公告 ==========
     {
       "name": "上交所-公告",
       "url": "http://www.sse.com.cn/disclosure/listedinfo/announcement/",
@@ -284,8 +270,6 @@
       "category": "公司公告",
       "enabled": true
     },
-    
-    // ========== 大宗商品与期货 ==========
     {
       "name": "金十数据-大宗商品",
       "url": "https://rsshub.app/jin10/market",
@@ -322,8 +306,6 @@
       "category": "大宗商品",
       "enabled": true
     },
-    
-    // ========== 全球市场 ==========
     {
       "name": "英为财情-全球市场",
       "url": "https://cn.investing.com/rss/news.rss",
@@ -342,8 +324,6 @@
       "category": "全球市场",
       "enabled": true
     },
-    
-    // ========== 行业研究 ==========
     {
       "name": "麦肯锡-洞见",
       "url": "https://www.mckinsey.com/featured-insights/rss",
@@ -362,8 +342,6 @@
       "category": "行业研究",
       "enabled": true
     },
-    
-    // ========== 科技与创新 ==========
     {
       "name": "36氪-新科技",
       "url": "https://rsshub.app/36kr/news/technology",
@@ -382,8 +360,6 @@
       "category": "科技创新",
       "enabled": true
     },
-    
-    // ========== 加密货币 ==========
     {
       "name": "CoinDesk",
       "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
@@ -402,8 +378,6 @@
       "category": "加密货币",
       "enabled": true
     },
-    
-    // ========== 社区与观点 ==========
     {
       "name": "雪球-热帖",
       "url": "https://rsshub.app/xueqiu/hots",
@@ -423,7 +397,6 @@
       "enabled": false
     }
   ],
-  
   "filters": {
     "关注行业": [
       "新能源", "电动车", "光伏", "风电", "储能",
@@ -436,7 +409,6 @@
       "互联网", "电商", "游戏",
       "制造业", "工业", "机械"
     ],
-    
     "关注关键词": [
       "A股", "上证", "深证", "创业板", "科创板",
       "美股", "纳斯达克", "道琼斯", "标普500",
@@ -450,7 +422,6 @@
       "涨停", "跌停", "暴涨", "暴跌",
       "突破", "新高", "回调"
     ],
-    
     "屏蔽词": [
       "广告", "推广", "招商", "加盟", "代理",
       "福利", "抽奖", "红包", "优惠券"
