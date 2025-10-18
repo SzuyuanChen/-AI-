@@ -1,7 +1,5 @@
 {
   "rss_feeds": [
-    
-    // ========== 国内权威财经媒体 ==========
     {
       "name": "新华社-财经",
       "url": "http://www.news.cn/fortune/news_fortune.xml",
@@ -9,34 +7,8 @@
       "enabled": true
     },
     {
-      "name": "人民网-财经",
-      "url": "http://finance.people.com.cn/rss/finance.xml",
-      "category": "权威媒体",
-      "enabled": true
-    },
-    {
-      "name": "央视财经",
-      "url": "https://rsshub.app/cctv/finance",
-      "category": "权威媒体",
-      "enabled": true
-    },
-    
-    // ========== 主流财经门户 ==========
-    {
-      "name": "新浪财经-股市要闻",
+      "name": "新浪财经-股市",
       "url": "https://finance.sina.com.cn/roll/index.d.html",
-      "category": "财经门户",
-      "enabled": true
-    },
-    {
-      "name": "新浪财经-基金",
-      "url": "https://finance.sina.com.cn/roll/index.d.html?cid=56593",
-      "category": "财经门户",
-      "enabled": true
-    },
-    {
-      "name": "新浪财经-期货",
-      "url": "https://finance.sina.com.cn/roll/index.d.html?cid=56594",
       "category": "财经门户",
       "enabled": true
     },
@@ -47,120 +19,20 @@
       "enabled": true
     },
     {
-      "name": "东方财富-公司新闻",
-      "url": "http://finance.eastmoney.com/news/cgsxw.html",
-      "category": "财经门户",
-      "enabled": true
-    },
-    {
-      "name": "金融界-股票",
-      "url": "http://stock.jrj.com.cn/xwk/",
-      "category": "财经门户",
-      "enabled": true
-    },
-    {
-      "name": "和讯网-财经",
-      "url": "http://www.hexun.com/rss/finance.xml",
-      "category": "财经门户",
-      "enabled": true
-    },
-    {
-      "name": "证券时报",
-      "url": "https://news.stcn.com/sd/",
-      "category": "财经门户",
-      "enabled": true
-    },
-    {
-      "name": "中国证券报",
-      "url": "http://www.cs.com.cn/",
-      "category": "财经门户",
-      "enabled": true
-    },
-    {
-      "name": "上海证券报",
-      "url": "https://news.cnstock.com/",
-      "category": "财经门户",
-      "enabled": true
-    },
-    
-    // ========== 专业财经媒体 ==========
-    {
       "name": "财新网-宏观",
       "url": "https://rsshub.app/caixin/finance/macroeconomy",
       "category": "专业媒体",
       "enabled": true
     },
     {
-      "name": "财新网-金融",
-      "url": "https://rsshub.app/caixin/finance/finance",
-      "category": "专业媒体",
-      "enabled": true
-    },
-    {
-      "name": "财联社-快讯",
-      "url": "https://rsshub.app/cls/telegraph",
-      "category": "专业媒体",
-      "enabled": true
-    },
-    {
-      "name": "第一财经",
-      "url": "https://rsshub.app/yicai/brief",
-      "category": "专业媒体",
-      "enabled": true
-    },
-    {
-      "name": "21世纪经济报道",
-      "url": "https://rsshub.app/21caijing/channel/4",
-      "category": "专业媒体",
-      "enabled": true
-    },
-    {
-      "name": "经济观察报",
-      "url": "http://www.eeo.com.cn/rss/rollnews.xml",
-      "category": "专业媒体",
-      "enabled": true
-    },
-    {
-      "name": "华尔街见闻-全球市场",
+      "name": "华尔街见闻-全球",
       "url": "https://rsshub.app/wallstreetcn/news/global",
       "category": "专业媒体",
       "enabled": true
     },
     {
-      "name": "华尔街见闻-A股",
-      "url": "https://rsshub.app/wallstreetcn/news/a-stock",
-      "category": "专业媒体",
-      "enabled": true
-    },
-    {
-      "name": "36氪-商业",
-      "url": "https://rsshub.app/36kr/news/business",
-      "category": "专业媒体",
-      "enabled": true
-    },
-    
-    // ========== 国际权威媒体 ==========
-    {
-      "name": "路透社-市场",
-      "url": "https://rsshub.app/reuters/markets",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    {
       "name": "Bloomberg-市场",
       "url": "https://feeds.bloomberg.com/markets/news.rss",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    {
-      "name": "Bloomberg-经济",
-      "url": "https://feeds.bloomberg.com/economics/news.rss",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    {
-      "name": "Financial Times",
-      "url": "https://www.ft.com/rss/home",
       "category": "国际媒体",
       "enabled": true
     },
@@ -171,289 +43,34 @@
       "enabled": true
     },
     {
-      "name": "华尔街日报-中文",
-      "url": "https://rsshub.app/wsj/zh-cn",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    {
-      "name": "经济学人",
-      "url": "https://www.economist.com/finance-and-economics/rss.xml",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    {
-      "name": "CNBC-市场",
-      "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    {
-      "name": "CNN Business",
-      "url": "http://rss.cnn.com/rss/money_news_international.rss",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    {
-      "name": "BBC Business",
-      "url": "http://feeds.bbci.co.uk/news/business/rss.xml",
-      "category": "国际媒体",
-      "enabled": true
-    },
-    
-    // ========== 美股市场 ==========
-    {
-      "name": "Yahoo Finance-美股",
+      "name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/news/rssindex",
       "category": "美股",
       "enabled": true
     },
     {
-      "name": "MarketWatch",
-      "url": "http://feeds.marketwatch.com/marketwatch/topstories/",
-      "category": "美股",
-      "enabled": true
-    },
-    {
-      "name": "Seeking Alpha",
-      "url": "https://seekingalpha.com/market_currents.xml",
-      "category": "美股",
-      "enabled": true
-    },
-    {
-      "name": "Barron's",
-      "url": "https://www.barrons.com/rss",
-      "category": "美股",
-      "enabled": true
-    },
-    
-    // ========== 政策与监管 ==========
-    {
-      "name": "中国政府网",
-      "url": "http://www.gov.cn/rss/xinwen.xml",
-      "category": "政策监管",
-      "enabled": true
-    },
-    {
-      "name": "发改委",
-      "url": "https://www.ndrc.gov.cn/fggz/",
-      "category": "政策监管",
-      "enabled": true
-    },
-    {
-      "name": "证监会",
-      "url": "http://www.csrc.gov.cn/csrc/c100028/common_list.shtml",
-      "category": "政策监管",
-      "enabled": true
-    },
-    {
-      "name": "中国人民银行",
-      "url": "http://www.pbc.gov.cn/",
-      "category": "政策监管",
-      "enabled": true
-    },
-    {
-      "name": "美联储新闻",
-      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-      "category": "政策监管",
-      "enabled": true
-    },
-    {
-      "name": "美国财政部",
-      "url": "https://home.treasury.gov/rss",
-      "category": "政策监管",
-      "enabled": true
-    },
-    
-    // ========== 上市公司公告 ==========
-    {
-      "name": "上交所-公告",
-      "url": "http://www.sse.com.cn/disclosure/listedinfo/announcement/",
-      "category": "公司公告",
-      "enabled": true
-    },
-    {
-      "name": "深交所-公告",
-      "url": "http://www.szse.cn/disclosure/listed/fixed/index.html",
-      "category": "公司公告",
-      "enabled": true
-    },
-    {
-      "name": "巨潮资讯-公告",
-      "url": "http://www.cninfo.com.cn/new/index",
-      "category": "公司公告",
-      "enabled": true
-    },
-    
-    // ========== 大宗商品与期货 ==========
-    {
-      "name": "金十数据-大宗商品",
-      "url": "https://rsshub.app/jin10/market",
-      "category": "大宗商品",
-      "enabled": true
-    },
-    {
-      "name": "上海期货交易所",
-      "url": "https://www.shfe.com.cn/",
-      "category": "大宗商品",
-      "enabled": true
-    },
-    {
-      "name": "大连商品交易所",
-      "url": "http://www.dce.com.cn/",
-      "category": "大宗商品",
-      "enabled": true
-    },
-    {
-      "name": "郑州商品交易所",
-      "url": "http://www.czce.com.cn/",
-      "category": "大宗商品",
-      "enabled": true
-    },
-    {
-      "name": "Kitco-黄金",
-      "url": "https://www.kitco.com/rss/",
-      "category": "大宗商品",
-      "enabled": true
-    },
-    {
-      "name": "Oil Price-原油",
-      "url": "https://oilprice.com/rss/main",
-      "category": "大宗商品",
-      "enabled": true
-    },
-    
-    // ========== 全球市场 ==========
-    {
-      "name": "英为财情-全球市场",
+      "name": "英为财情-全球",
       "url": "https://cn.investing.com/rss/news.rss",
       "category": "全球市场",
       "enabled": true
     },
     {
-      "name": "Trading Economics",
-      "url": "https://tradingeconomics.com/rss/news.aspx",
-      "category": "全球市场",
+      "name": "金十数据-大宗商品",
+      "url": "https://rsshub.app/jin10/market",
+      "category": "大宗商品",
       "enabled": true
-    },
-    {
-      "name": "日经亚洲",
-      "url": "https://asia.nikkei.com/rss/feed/nar",
-      "category": "全球市场",
-      "enabled": true
-    },
-    
-    // ========== 行业研究 ==========
-    {
-      "name": "麦肯锡-洞见",
-      "url": "https://www.mckinsey.com/featured-insights/rss",
-      "category": "行业研究",
-      "enabled": true
-    },
-    {
-      "name": "波士顿咨询",
-      "url": "https://www.bcg.com/rss/publications.rss",
-      "category": "行业研究",
-      "enabled": true
-    },
-    {
-      "name": "德勤研究",
-      "url": "https://www2.deloitte.com/cn/zh/pages/about-deloitte/articles/rss.html",
-      "category": "行业研究",
-      "enabled": true
-    },
-    
-    // ========== 科技与创新 ==========
-    {
-      "name": "36氪-新科技",
-      "url": "https://rsshub.app/36kr/news/technology",
-      "category": "科技创新",
-      "enabled": true
-    },
-    {
-      "name": "TechCrunch",
-      "url": "https://techcrunch.com/feed/",
-      "category": "科技创新",
-      "enabled": true
-    },
-    {
-      "name": "The Verge",
-      "url": "https://www.theverge.com/rss/index.xml",
-      "category": "科技创新",
-      "enabled": true
-    },
-    
-    // ========== 加密货币 ==========
-    {
-      "name": "CoinDesk",
-      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-      "category": "加密货币",
-      "enabled": true
-    },
-    {
-      "name": "Cointelegraph",
-      "url": "https://cointelegraph.com/rss",
-      "category": "加密货币",
-      "enabled": true
-    },
-    {
-      "name": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/feed",
-      "category": "加密货币",
-      "enabled": true
-    },
-    
-    // ========== 社区与观点 ==========
-    {
-      "name": "雪球-热帖",
-      "url": "https://rsshub.app/xueqiu/hots",
-      "category": "投资社区",
-      "enabled": false
-    },
-    {
-      "name": "集思录",
-      "url": "https://www.jisilu.cn/",
-      "category": "投资社区",
-      "enabled": false
-    },
-    {
-      "name": "知乎-投资话题",
-      "url": "https://rsshub.app/zhihu/topic/19550517",
-      "category": "投资社区",
-      "enabled": false
     }
   ],
   
   "filters": {
     "关注行业": [
-      "新能源", "电动车", "光伏", "风电", "储能",
-      "半导体", "芯片", "集成电路",
-      "人工智能", "AI", "ChatGPT", "大模型",
-      "医药", "生物科技", "创新药",
-      "消费", "白酒", "食品饮料",
-      "房地产", "建筑", "基建",
-      "金融", "银行", "保险", "证券",
-      "互联网", "电商", "游戏",
-      "制造业", "工业", "机械"
+      "新能源", "半导体", "人工智能", "医药", "消费", "房地产", "金融"
     ],
-    
     "关注关键词": [
-      "A股", "上证", "深证", "创业板", "科创板",
-      "美股", "纳斯达克", "道琼斯", "标普500",
-      "港股", "恒生指数",
-      "基金", "ETF", "指数基金",
-      "期货", "大宗商品", "黄金", "原油", "铜", "铁矿石",
-      "央行", "降息", "降准", "货币政策", "财政政策",
-      "中美关系", "贸易战", "关税",
-      "业绩", "财报", "营收", "利润", "分红",
-      "IPO", "上市", "重组", "并购",
-      "涨停", "跌停", "暴涨", "暴跌",
-      "突破", "新高", "回调"
+      "A股", "美股", "基金", "ETF", "期货", "黄金", "原油", "央行", "降息", "业绩", "财报"
     ],
-    
     "屏蔽词": [
-      "广告", "推广", "招商", "加盟", "代理",
-      "福利", "抽奖", "红包", "优惠券"
+      "广告", "推广", "招商"
     ]
   }
 }
